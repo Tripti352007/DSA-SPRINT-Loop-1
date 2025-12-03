@@ -1,0 +1,109 @@
+Question1:- 
+for (int i = 1; i <= 3; i++) {
+    cout << i << " ";
+}
+Answer1:-
+1 2 3
+
+Question2:-
+int n = 4;
+for (int i = 1; i <= n; i++) {
+    cout << i * 2 << " ";
+}
+Answer:-
+2 4 6 8
+
+Question3:-
+int i = 3;
+while (i > 0) {
+    cout << i << " ";
+    i--;
+}
+Answer:-
+3 2 1
+
+Question4:-
+for (int i = 2; i <= 6; i += 2) {
+    cout << i << " ";
+}
+Answer4:-
+2 4 6
+
+Question5:-
+for (int i = 1; i <= 5; i++) {
+    if (i % 2 == 0) {
+        cout << "E";
+    }
+    else {
+        cout << "O";
+    }
+}
+Answer6:-
+EEOEO
+
+Question6:-
+int a = 5;
+int d = 3;
+cout << a << " ";
+for (int i = 1; i < 3; i++) {
+    a = a + d;
+    cout << a << " ";
+}
+Answer:-
+5 8     
+
+Question7:-
+int i = 1;
+while (i <= 3) {
+    cout << i << " ";
+    ++i;
+}
+Answer:-
+1 2 3
+
+Question8:-
+for (int i = 5; i >= 1; i--) {
+    cout << i << " ";
+}
+Answer:-
+5 4 3 2 1
+
+Question9:-
+int sum = 0;
+for (int i = 1; i <= 4; i++) {
+    sum = sum + i;
+}
+cout << sum;
+Answer:-
+1234
+
+Question10:-
+         int i = 1;
+while (i <= 4) {
+    if (i == 3) {
+        cout << "Three ";
+    }
+    else {
+        cout << i << " ";
+    }
+    i++;
+}
+Answer:-
+1 2 Three 4
+
+Question11:-
+for (int i = 1; i <= 7; i++) {
+    if (i % 3 == 0) {
+        cout << i << " ";
+    }
+}
+Answer:-
+1 3 6
+Question12:-
+int x = 2;
+for (int i = 0; i < 3; i++) {
+    x = x * 2;
+    cout << x << " ";
+}
+Answer:-
+0 2 4
